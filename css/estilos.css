@@ -56,7 +56,7 @@
 .pop-up-title{
     flex-basis: 0;
     flex-grow:1.5;
-    height: 460px;
+    height: 447px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,7 +121,7 @@
     background: #fff;
     flex-basis: 0;
     flex-grow: 2;
-    height: 460px;
+    height: 445px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -136,7 +136,7 @@
 
 .sub-content h2{
     font-weight: 500;
-    font-size: 30px;
+    font-size: 34px;
     color: #000000;
     margin-bottom: 15px;
 }
@@ -150,6 +150,7 @@
 .subs-email{
     width: 100%;
     padding: 15px;
+    font-size: 20px;
     border: none;
     background: #ccc;
     margin-bottom: 15px;
@@ -161,7 +162,7 @@
     border: none;
     background: #31d305;
     color: #fff;
-    font-size: 18px;
+    font-size: 80%;
     cursor: pointer;
     margin-bottom: 20px;
     transition: .25s ease background;
@@ -169,6 +170,7 @@
 
 .subs-send:hover{
     background: #000000;
+    transition: .25s ;
 }
 
 .line{
@@ -182,7 +184,7 @@
     top: 40px;
     right: 25px;
     font-size: 25px;
-    color: #1bc59b;
+    color: #000000;
     cursor: pointer;
 }
 
@@ -198,6 +200,20 @@
 @media only screen and (max-width: 980px){
     .pop-up-title{
         display: none;
+    }
+    .sub-content h2{
+        font-size: 20px;
+    }
+    .sub-content p{
+        font-size: 13px;
+    }
+    .subs-send{
+        font-size: 15px;
+        padding: 5px;
+        height: 50px;
+    }
+    .subs-email{
+        font-size: 15px;
     }
 
 }
