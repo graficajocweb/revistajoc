@@ -1,0 +1,212 @@
+
+
+@media all and (max-width: 580px) {
+    .text{
+       height: 500px;
+    }
+    
+}
+
+@media all and (max-width: 390px) {
+    .text{
+       height: 380px;
+    }
+    
+}
+
+.error{
+    font-size: 60px;
+    padding: 5px;   
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.501);
+    text-decoration: blink;
+}
+
+.blink {
+    animation: blink-animation 2s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
+.x{
+    color: #fff;
+}
+H1, h5, P{
+    margin-top: 10px;
+    padding: 5px;   
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.501);
+}
+
+
+.bx-refresh{
+    font-size: 40px;
+    margin: 10px;
+    color: #fff;
+}
+
+.boton{
+    background-color: #fff;
+    color: #000;
+   
+    padding: 16px;
+    font-size: 18px;
+
+}
+.links{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 13px;
+    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    background-image: url(IMG/portada.jpg);
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-size: cover;
+
+
+}
+
+/*@media (max-width: 700px) {
+    header {
+        background-image: url(img/qr-code-26.png);
+        height: 30px;
+    }
+}*/
+
+
+.contenido {
+    width: 100%;
+    height: auto;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.caja1 {
+    width: 350px;
+    height: 225px;
+
+    background-color: rgb(226, 226, 226);
+    box-shadow: 14px 14px 15px 0px #000000cc;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border:  1px solid rgba(84, 84, 84, 0.656);
+}
+
+.tarjeta {
+    width: 350px;
+    height: auto;
+}
+
+.link-button {
+    background-color: transparent;
+    width: auto;
+    display: flex;
+    margin-top: 60px;
+    position: absolute;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.button {
+    width: 150px;
+    padding: 10px;
+    margin-top: 180px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+}
+
+.button-2 {
+    width: 170px;
+    margin-top: 180px;
+    margin-left: 160px;
+    padding: 10px;
+    position: absolute;
+    background-color: transparent;
+
+    border: none;
+
+
+
+}
+
+.caja2 {
+    width: 30%;
+    height: 30px;
+    background-color: blue;
+    color: aqua;
+    padding: 50px;
+    margin: 10px;
+}
+
+h1 {
+    color: rgb(204, 0, 0);
+    background-color: aqua;
+
+}
+
+.letra {
+    color: #fff;
+    font-size: 60px;
+
+}
+.conteiner-info {
+    background-color: rgb(0, 0, 0);
+    width: 100%; 
+
+
+}
+.contacto {
+    color: rgb(255, 255, 255); 
+    background-color: rgb(0, 0, 0); 
+    padding: 5px;
+    margin: 10px;
+
+}
+.info, 
+.texto {
+    color: #fff;
+    background-color: #000; 
+    margin: 5px;
+}
+
